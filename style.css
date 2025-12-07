@@ -1,0 +1,156 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo principal e texto */
+body {
+    background-color: #fff5f9; /* rosa super clarinho */
+    font-family: "Caveat", cursive;
+    color: #eb5555; /* rosa escuro suave */
+    line-height: 1.8; /* deixa o texto mais confortável */
+    padding: 30px;
+    max-width: 800px;   /* limita largura máxima da página */
+    margin: 0 auto;     /* centraliza o conteúdo */
+       background-image: 
+        radial-gradient(#f1b3bc 4%, transparent 5%), 
+        radial-gradient(#f5a5b1 4%, transparent 5%);
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px;
+}
+.bloco-receita {
+    background-color: #fff0f5;  /* mesmo fundo das listas */
+    border: 1px solid #fac7dc;  /* borda rosa delicada */
+    border-radius: 10px;         /* cantinhos arredondados */
+    padding: 15px 20px;          /* espaço interno */
+    margin-bottom: 20px;         /* espaço abaixo */
+}
+
+
+/* Títulos */
+h1 {
+    font-family: "Caveat", cursive;
+    text-align: center;
+    color: #ec7272; /* rosa mais forte, mas ainda cute */
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Caveat", cursive; /* mesma do corpo, clean */
+    color: #e96565; /* rosa bebê escuro */
+    font-size: 1.6rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFD6E7; /* linha delicada rosa clarinho */
+    padding-bottom: 5px;
+    
+}
+
+/* Imagens */
+img {
+    display: block; /* permite centralizar */
+    margin: 50px auto; /* centraliza */
+    padding: 15px;
+    box-shadow: 0 3px 8px rgba(238, 160, 172, 0.5); /* bordas fofinhas */
+    border-radius: 12px; /* sombra rosa suave */
+    margin-bottom: 35px; /* espaço abaixo */
+    width: 250px; /* largura fixa de 500px */
+    height: auto;
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 20px; /* espaço da margem esquerda */
+    font-family: "Caveat", cursive;
+    padding: 15px 20px; /* espaçamento interno */
+    background-color: #fff0f5; /* rosa bem clarinho */
+    border-radius: 10px; /* cantinhos arredondados */
+    border: 1px solid #f3e6e6; /* borda rosa clarinha */
+    margin-bottom: 30px; /* espaço abaixo da lista */
+    
+}
+
+ul li, ol li {
+    margin-bottom: 10px; /* diminui o espaçamento entre itens da lista */
+}
+
+/* Formulário de comentários */
+form {
+    background-color: #fff0f5; /* rosa clarinho */
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #f3e6e6; /* borda delicada */
+    max-width: 500px;
+    margin: 20px auto; /* centraliza o formulário */
+}
+
+form input,
+form textarea {
+    width: 100%; /* ocupa toda a largura */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #FFD6E7; /* borda rosa clarinha */
+    border-radius: 8px; /* cantinhos arredondados */
+    font-family: "Poppins", sans-serif;
+    
+}
+
+form button {
+    background-color: #FFB6C1; /* rosa bebê escuro */
+    color: white;
+    border: none;
+    font-family: "Caveat", cursive;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+form button:hover {
+    background-color: #ecb9c6; /* rosa mais vivo no hover */
+    transform: scale(1.05); /* leve aumento fofinho */
+}
+
+/* Borda do comentário */
+fieldset {
+    border: 1px solid #f5cad0; /* borda rosa bebê escura */
+    border-radius: 12px; /* cantos arredondados */
+    padding: 15px 20px; /* espaço interno confortável */
+    background-color: #fff0f5; /* fundo rosa clarinho */
+}
+
+/* Estrelas de avaliação */
+#avaliacao {
+    text-align: center;
+    margin: 50px 0; /* espaço acima e abaixo */
+    background-color: #fff0f5; /* mesmo fundo das listas */
+    border-radius: 10px;        /* cantinhos arredondados */
+    border: 1px solid #f3e6e6;  /* borda rosa delicada */
+}
+
+.estrelas {
+    display: inline-flex; /* flex inline para centralizar e manter em linha */
+    flex-direction: row-reverse; /* inverte a ordem para hover da esquerda para a direita */
+    font-size: 30px;
+    color: #ffcce1; /* cor padrão das estrelas */
+    cursor: pointer;
+   
+}
+
+.estrelas span:hover,
+.estrelas span:hover ~ span {
+    color: #ff6f91; /* cor das estrelas quando passar o mouse */
+}
+
+
+
+
+
+
+
+
